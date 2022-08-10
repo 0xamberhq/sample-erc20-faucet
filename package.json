@@ -1,0 +1,16 @@
+{
+  "name": "erc20-faucet",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "build:evm": "truffle build",
+    "build:substrate": "solang --math-overflow --target substrate -m @openzeppelin=./node_modules/@openzeppelin -o ./build/substrate ./contracts/*.sol"
+  },
+  "devDependencies": {
+    "truffle": "^5.5.25"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.7.2"
+  }
+}
