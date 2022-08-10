@@ -2,6 +2,8 @@
 
 Most basic example of an ERC20 contract.
 
+Find the API docs for the ERC20 interface / the OpenZeppelin implementation of it [here](https://docs.openzeppelin.com/contracts/4.x/api/token/erc20#ERC20).
+
 ## Setup
 
 ```sh
